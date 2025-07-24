@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="../Assets/Img/Logovr2_white.png" type="image/png" />
+    <title>Correo confirmado</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        height: 100vh;
+        font-family: "Inter", sans-serif;
+        background: linear-gradient(to bottom, #4facfe, #00f2fe);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #333;
+      }
+
+      .card {
+        background: #fff;
+        padding: 60px 40px;
+        border-radius: 16px;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        max-width: 400px;
+        width: 90%;
+        animation: fadeIn 0.5s ease-in-out;
+      }
+
+      .card h1 {
+        font-size: 28px;
+        margin-bottom: 16px;
+        color: #2b6cb0;
+      }
+
+      .card img {
+        width: 180px;
+        height: auto;
+      }
+
+      .card p {
+        font-size: 16px;
+        margin: 8px 0;
+        line-height: 1.5;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (max-width: 480px) {
+        .card {
+          padding: 40px 20px;
+        }
+
+        .card h1 {
+          font-size: 22px;
+        }
+
+        .card img {
+          width: 140px;
+        }
+
+        .card p {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>✅ ¡Correo confirmado!</h1>
+      <img src="../Assets/Img/Logovr2.png" alt="Logo" />
+      <p>Gracias por verificar tu cuenta😁.</p>
+      <p>Ahora puedes abrir la aplicación e iniciar sesión🔐.</p>
+    </div>
+  </body>
+</html>
